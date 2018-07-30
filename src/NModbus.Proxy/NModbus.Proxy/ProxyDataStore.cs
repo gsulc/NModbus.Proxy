@@ -2,17 +2,17 @@
 {
     public class ProxyDataStore : ISlaveDataStore
     {
-        private readonly IModbusMaster _master;
         private readonly byte _unitId;
+        private readonly IModbusMaster _master;
         private IPointSource<bool> _coilDiscretes;
         private IPointSource<bool> _coilInputs;
         private IPointSource<ushort> _holdingRegisters;
         private IPointSource<ushort> _inputRegisters;
 
-        public ProxyDataStore(IModbusMaster master, byte unitId)
+        public ProxyDataStore(byte unitId, IModbusMaster master)
         {
-            _master = master;
             _unitId = unitId;
+            _master = master;
         }
 
         public IPointSource<bool> CoilDiscretes => 

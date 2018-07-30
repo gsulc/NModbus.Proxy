@@ -18,7 +18,9 @@
 
         public void WritePoints(ushort startAddress, bool[] points)
         {
-            throw new InvalidModbusRequestException("Coil Inputs are read-only.", SlaveExceptionCodes.IllegalFunction);
+            throw new InvalidModbusRequestException(
+                "Coil Inputs are read-only.", 
+                SlaveExceptionCodes.IllegalFunction);
         }
     }
 }

@@ -18,7 +18,9 @@
 
         public void WritePoints(ushort startAddress, ushort[] points)
         {
-            throw new InvalidModbusRequestException("Input Registers are read-only.", SlaveExceptionCodes.IllegalFunction);
+            throw new InvalidModbusRequestException(
+                "Input Registers are read-only.", 
+                SlaveExceptionCodes.IllegalFunction);
         }
     }
 }
