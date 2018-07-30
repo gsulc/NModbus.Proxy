@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NModbus.Proxy", "NModbus.Proxy\NModbus.Proxy.csproj", "{6C30B2D3-2164-49C1-B1FB-761289BD52CC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{3D4D0129-DF08-4157-B0C1-29BD98A8AC28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NModbus.Proxy", "NModbus.Proxy\NModbus.Proxy.csproj", "{71FAECE5-238B-42F1-A23B-155BE2638491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C30B2D3-2164-49C1-B1FB-761289BD52CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C30B2D3-2164-49C1-B1FB-761289BD52CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C30B2D3-2164-49C1-B1FB-761289BD52CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C30B2D3-2164-49C1-B1FB-761289BD52CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D4D0129-DF08-4157-B0C1-29BD98A8AC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D4D0129-DF08-4157-B0C1-29BD98A8AC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4D0129-DF08-4157-B0C1-29BD98A8AC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4D0129-DF08-4157-B0C1-29BD98A8AC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FAECE5-238B-42F1-A23B-155BE2638491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FAECE5-238B-42F1-A23B-155BE2638491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FAECE5-238B-42F1-A23B-155BE2638491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FAECE5-238B-42F1-A23B-155BE2638491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

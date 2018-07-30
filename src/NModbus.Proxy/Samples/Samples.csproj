@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NModbus.Proxy\NModbus.Proxy.csproj">
-      <Project>{6c30b2d3-2164-49c1-b1fb-761289bd52cc}</Project>
+      <Project>{71faece5-238b-42f1-a23b-155be2638491}</Project>
       <Name>NModbus.Proxy</Name>
     </ProjectReference>
   </ItemGroup>
